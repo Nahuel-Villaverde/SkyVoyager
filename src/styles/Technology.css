@@ -1,0 +1,184 @@
+.technology-container{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.advanced-materials{
+    background-image: url('/materials.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.advanced-materials-text{
+    padding-top: 180px;
+    padding-left: 100px;
+    max-width: 690px;
+    text-shadow: 0px 4px 13.7px #2651BE;
+}
+
+.advanced-materials-text h2{
+    font-size: 48px;
+    
+}
+
+.advanced-materials-text p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.command-control{
+    background-image: url('/Group 7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.command-control-text{
+    padding-top: 180px;
+    padding-left: 100px;
+    max-width: 690px;
+    text-shadow: 0px 4px 13.7px #2651BE;
+}
+
+.command-control-text h2{
+    font-size: 48px;
+    
+}
+
+.command-control-text p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.propulsion{
+    background-image: url('/propulsion.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.propulsion-text{
+    padding-top: 180px;
+    padding-left: 100px;
+    max-width: 690px;
+    text-shadow: 0px 4px 13.7px #2651BE;
+}
+
+.propulsion-text h2{
+    font-size: 48px;
+    
+}
+
+.propulsion-text p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-more {
+    position: relative; /* Necesario para el pseudo-elemento */
+    padding: 14px 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #2651BE;
+    border-radius: 2px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;;
+    overflow: hidden; /* Oculta el desbordamiento del pseudo-elemento */
+    z-index: 1; /* Asegura que el texto del botón esté encima */
+    transition: color 0.3s ease; /* Transición para el color del texto */
+}
+
+.button-more::before {
+    content: "";
+    position: absolute;
+    top: 100%; /* Inicia fuera del botón, desde abajo */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2651BE; /* Color del hover */
+    z-index: -1; /* Detrás del contenido del botón */
+    transition: top 0.3s ease-in-out; /* Suaviza el movimiento */
+}
+
+.button-more:hover::before {
+    top: 0; /* Llenado completo del fondo */
+}
+
+.metrics{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.metrics-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.metrics-title h2{
+    font-size: 48px;
+    max-width: 510px;
+    text-shadow: 0px 4px 13.7px #2651BE;
+    font-weight: 400;
+    margin: 0;
+}
+
+.metrics-title p{
+    font-size: 16px;
+    max-width: 500px;
+}
+
+.total-launches-info span{
+    font-size: 44px;
+    text-shadow: 0px 4px 13.7px #2651BE;
+    border: 2px solid #F5F7FA;
+    border-radius: 20px;
+    padding: 14px 24px 14px 24px;
+
+}
+
+.total-launches-info span:nth-child(2) {
+    margin-left: 10px;
+}
+
+.third-number{
+    margin-left: 10px;
+}
+
+.total-launches-info span:last-child {
+    font-size: 58px;
+    padding: 0px 24px 10px 24px;
+    margin-left: 10px;
+}
+
+.total-launches{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-metric{
+    margin-top: 28px;
+}
+
+.text-metric-space{
+    margin-top: 28px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.metrics-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+}

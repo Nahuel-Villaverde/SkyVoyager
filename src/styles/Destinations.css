@@ -1,0 +1,82 @@
+.destination-section{
+    position: relative;
+    margin-top: 120px;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 500px;   
+}
+  
+.bg-image-destination {
+    position: absolute;
+    opacity: 0.8;
+    pointer-events: none;
+}
+
+.destination-title{
+    justify-self: center;
+    font-weight: 400;
+    text-shadow: 0px 4px 13.7px #2651BE;
+    font-size: 50px;
+    margin-bottom: 150px;
+}
+
+.destination-subtitle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.planets-destination{
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 0px 4px 13.7px #2651BE;
+}
+
+.space-station{
+    font-size: 32px;
+    font-weight: 400;
+    text-shadow: 0px 4px 13.7px #2651BE;
+    max-width: 300px;
+    text-align: start;
+}
+
+.subtitle1-destination{
+    align-items: end;
+    margin-right: 340px
+}
+
+.subtitle2-destination{
+    margin-left: 200px;
+    max-width: 800px;
+    text-align: start;
+}
+
+.subtitle3-destination{
+    align-items: end;
+    margin-right: 340px
+}
+
+.img1-destination {
+    top: 6%;
+    left: 78%;
+    width: 550px;
+}
+
+.img2-destination {
+    top: 33%;
+    left: -110px;
+    width: 260px;
+}
+
+.img3-destination {
+    top: 54%;
+    left: 80%;
+    width: 200px;
+}
+
+.img4-destination {
+    bottom: -1100px;
+    left: 2%;
+    width: 1440px;
+}

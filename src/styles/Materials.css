@@ -1,0 +1,206 @@
+.materials-section {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.materials-home{
+    height: 100vh;
+}
+
+.materials-title-container{
+    top: 200px;
+    position: relative;
+}
+
+.capsula{
+    position: absolute;
+    opacity: 0.8; /* Transparencia opcional */
+    pointer-events: none; /* Evita que las imágenes interfieran con el texto */
+    top: 30%;
+    right: -300px;
+    width: 1000px;
+}
+
+.img7{
+    width: 650px;
+    top: -80px;
+    left: -250px;
+}
+
+.materials-title {
+    font-size: 58px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.materials-subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+  text-align: center;
+}
+
+.material-motor{
+    font-weight: 400;
+}
+
+.materials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/Frame 1.png');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */;
+}
+
+.materials1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-image: url('201812281647497876086 1.png');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */;
+}
+
+.materials2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100vh;
+    background-image: url('Soyuz_TMA-16_approaching_ISS 1.png');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */;
+}
+
+.materials3{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100vh;
+    background-image: url('materials-ship.png');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */;
+}
+
+.materials4{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100vh;
+    background-image: url('starship-launch-overview 1.png');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */;
+}
+
+.materials-text-2{
+    max-width: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 60px;
+}
+
+.materials-text-2 h3{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 38px;
+}
+
+.materials-text-2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 470px;
+    margin-bottom: 50px;
+    color: #afafaf;
+}
+
+.materials-text-3{
+    max-width: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 60px;
+}
+
+.materials-text-3 h3{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 38px;
+}
+
+.materials-text-3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 470px;
+    margin-bottom: 50px;
+    color: #afafaf;
+}
+
+
+.materials-text{
+    max-width: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.materials-text h3{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 38px;
+}
+
+.materials-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 470px;
+    margin-bottom: 50px;
+    color: #8e8e8e;
+}
+
+.aluminio{
+    height: 300px;
+    margin-right: 200px;
+}
+
+.materials-description{
+    border-bottom: 2px solid #6c6c6c86;
+    padding-bottom: 12px;
+}
+
+.materials-description-container{
+    margin-top: 50px;
+}
+
+.materials-description h4{
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.materials-description span{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.materials-description-motor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #6c6c6c86;
+    margin-bottom: 30px;
+}
+
+.materials-description-motor h4{
+    margin: 0px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.materials-description-motor span{
+    font-size: 14px;
+    margin-bottom: 10px;
+}

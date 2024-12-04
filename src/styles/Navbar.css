@@ -1,0 +1,138 @@
+.nav {
+  width: 100%;
+  background-color: #010003;
+  position: fixed;
+  padding: 24px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Orbitron', sans-serif;
+  top: 0;
+  z-index: 1000;
+  transition: opacity 0.5s ease, pointer-events 0.5s ease; /* Transición suave para pointer-events */
+  opacity: 1;
+  pointer-events: auto; /* Habilita los clics cuando está visible */
+}
+
+.nav.hidden {
+  opacity: 0; /* Reduce la opacidad a 0 para el desvanecimiento */
+  pointer-events: none; /* Desactiva los clics cuando está oculto */
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Elimina el scroll horizontal */
+}
+
+.nav-container {
+  display: flex;
+  gap: 10vw;
+  align-items: center;
+  margin: 0 100px;
+}
+
+.nav-title span {
+  color: #F5F7FA;
+  font-size: 22px;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: #F5F7FA;
+  transition: transform 0.3s ease;
+}
+
+/* Ocultar el menú por defecto */
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 8vw;
+  top: 100%;
+}
+
+.nav-links-span {
+  color: #F5F7FA;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 210ms;
+  cursor: pointer;
+}
+
+.nav-links-span:hover {
+  color: #3E85FF;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    background-color: #010003;
+    position: fixed; /* Cambia a fixed para sacarlo del flujo del documento */
+    top: 82.6px;
+    right: -300px; /* Inicialmente fuera de la pantalla */
+    width: 200px;
+    height: 100vh; /* Ocupa toda la altura del viewport */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    pointer-events: none; /* No clickeable mientras está cerrado */
+    transition: right 0.4s ease-in-out; /* Animación suave */
+    padding-top: 30px;
+  }
+  
+  .nav-links.open {
+    right: 0; /* Despliega el menú completamente dentro de la pantalla */
+    pointer-events: auto; /* Habilita la interacción */
+    padding-top: 30px;
+  }
+
+  .nav-links li{
+    padding-left: 30px;
+   }
+  
+ .nav-links.open li{
+  padding-left: 30px;
+ }
+
+  .nav-container {
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .hamburger .line {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .hamburger.open .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg); /* Primera línea rota */
+  }
+  
+  .hamburger.open .line:nth-child(2) {
+    opacity: 0; /* Oculta la línea del medio */
+  }
+  
+  .hamburger.open .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg); /* Última línea rota */
+  }
+
+
+}
