@@ -197,6 +197,17 @@
     margin-top: 140px;
 }
 
+@media (prefers-color-scheme: light) {
+    .button-more {
+        color: white;
+    }
+
+    .total-launches-info span {
+        border: 2px solid #F5F7FA;
+    }
+}
+
+
 @media (max-width: 1250px) {
     .total-launches-info span {
         font-size: 24px;
