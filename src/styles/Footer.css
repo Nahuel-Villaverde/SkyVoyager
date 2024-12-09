@@ -15,6 +15,7 @@
     font-size: 14px;
     font-weight: 400;
     color: rgb(137, 137, 137);
+    text-align: center;
   }
 
   .signature{
@@ -46,4 +47,9 @@
     color: #2651be; /* Color de hover */
   }
   
+  @media (max-width: 375px){
+    .info-footer{
+      font-size: 12px;
+    }
+  }
   

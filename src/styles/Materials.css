@@ -2,25 +2,27 @@
     font-family: 'Orbitron', sans-serif;
 }
 
-.materials-home{
+.materials-home {
     height: 100vh;
 }
 
-.materials-title-container{
+.materials-title-container {
     top: 200px;
     position: relative;
 }
 
-.capsula{
+.capsula {
     position: absolute;
-    opacity: 0.8; /* Transparencia opcional */
-    pointer-events: none; /* Evita que las imágenes interfieran con el texto */
-    top: 30%;
-    right: -300px;
-    width: 1000px;
+    opacity: 0.8;
+    /* Transparencia opcional */
+    pointer-events: none;
+    /* Evita que las imágenes interfieran con el texto */
+    top: 52%;
+    right: 40px;
+    width: 300px;
 }
 
-.img7{
+.img7 {
     width: 650px;
     top: -80px;
     left: -250px;
@@ -33,81 +35,96 @@
     color: #ffffff;
 }
 
-.materials-subtitle{
+.materials-subtitle {
     font-size: 14px;
     font-weight: 400;
     display: block;
-  text-align: center;
+    text-align: center;
 }
 
-.material-motor{
+.material-motor {
     font-weight: 400;
 }
 
-.materials{
+.materials {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
     background-image: url('/Frame 1.png');
-    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */;
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el área */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    ;
 }
 
-.materials1{
+.materials1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
     background-image: url('201812281647497876086 1.png');
-    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */;
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el área */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    ;
 }
 
-.materials2{
+.materials2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     height: 100vh;
     background-image: url('Soyuz_TMA-16_approaching_ISS 1.png');
-    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */;
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el área */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    ;
 }
 
-.materials3{
+.materials3 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     height: 100vh;
     background-image: url('materials-ship.png');
-    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */;
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el área */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    ;
 }
 
-.materials4{
+.materials4 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     height: 100vh;
     background-image: url('starship-launch-overview 1.png');
-    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */;
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el área */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    ;
 }
 
-.materials-text-2{
+.materials-text-2 {
     max-width: 600px;
     padding-left: 100px;
     padding-right: 100px;
     margin-bottom: 60px;
 }
 
-.materials-text-2 h3{
+.materials-text-2 h3 {
     margin-top: 0;
     margin-bottom: 16px;
     font-size: 38px;
 }
 
-.materials-text-2 p{
+.materials-text-2 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -116,20 +133,20 @@
     color: #afafaf;
 }
 
-.materials-text-3{
+.materials-text-3 {
     max-width: 600px;
     padding-left: 100px;
     padding-right: 100px;
     margin-bottom: 60px;
 }
 
-.materials-text-3 h3{
+.materials-text-3 h3 {
     margin-top: 0;
     margin-bottom: 16px;
     font-size: 38px;
 }
 
-.materials-text-3 p{
+.materials-text-3 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -139,19 +156,19 @@
 }
 
 
-.materials-text{
+.materials-text {
     max-width: 600px;
     padding-left: 100px;
     padding-right: 100px;
 }
 
-.materials-text h3{
+.materials-text h3 {
     margin-top: 0;
     margin-bottom: 16px;
     font-size: 38px;
 }
 
-.materials-text p{
+.materials-text p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -160,32 +177,32 @@
     color: #8e8e8e;
 }
 
-.aluminio{
-    height: 300px;
-    margin-right: 200px;
+.aluminio {
+    height: 15vw;
+    margin-right: 10vw;
 }
 
-.materials-description{
+.materials-description {
     border-bottom: 2px solid #6c6c6c86;
     padding-bottom: 12px;
 }
 
-.materials-description-container{
+.materials-description-container {
     margin-top: 50px;
 }
 
-.materials-description h4{
+.materials-description h4 {
     margin-bottom: 0px;
     font-size: 14px;
 }
 
-.materials-description span{
+.materials-description span {
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.materials-description-motor{
+.materials-description-motor {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -194,13 +211,211 @@
     margin-bottom: 30px;
 }
 
-.materials-description-motor h4{
+.materials-description-motor h4 {
     margin: 0px;
     font-size: 14px;
     margin-bottom: 10px;
 }
 
-.materials-description-motor span{
+.materials-description-motor span {
     font-size: 14px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+    .img7 {
+        width: 550px;
+        top: -10px;
+        left: -350px;
+    }
+
+    .capsula {
+        width: 250px;
+    }
+}
+
+@media (max-width: 900px) {
+    .aluminio {
+        height: 15vw;
+        margin-right: 4vw;
+    }
+
+    .materials-text h3 {
+        font-size: 28px;
+        max-width: 300px;
+    }
+
+    .materials-text p {
+        font-size: 12px;
+        max-width: 300px;
+    }
+
+    .materials-text {
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .materials-text-2 h3 {
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .materials-text-2 p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .materials-text-2 {
+        max-width: 400px;
+        margin: 0;
+    }
+
+    .materials2 {
+        align-items: center;
+        justify-content: center;
+        background-image: url('Soyuz_TMA-16_approaching_ISS 1 (1).png');
+    }
+
+    .materials-text {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .materials-description-motor h4 {
+        font-size: 12px;
+    }
+
+    .materials-description-motor span {
+        font-size: 12px;
+    }
+
+    .materials {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .aluminio {
+        margin-right: 0;
+        height: 150px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .materials-text h3 {
+        font-size: 28px;
+        max-width: 500px;
+    }
+
+    .materials-text p {
+        font-size: 14px;
+        max-width: none;
+
+    }
+
+    .materials-title {
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size: 46px;
+    }
+
+    .materials-title-container {
+        top: 280px;
+    }
+    
+    .materials1 {
+        justify-content: center;
+    }
+
+    .materials3 {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .materials-text-3 h3 {
+        text-align: center;
+    }
+
+    .materials-text-3 p {
+        text-align: center;
+    }
+
+    .materials4 {
+        background-image: url('starship-launch-overview 2 .png');
+    }
+
+    .materials-text-2 {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .materials-text-3 {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .capsula {
+        top: 68%;
+        right: 20px;
+        width: 160px;
+    }
+
+    .img7 {
+        width: 325px;
+        top: 60px;
+        left: -150px;
+    }
+}
+
+@media (max-width: 425px) {
+    .aluminio {
+        height: 100px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .capsula {
+        top: 68%;
+        right: 20px;
+        width: 125px;
+    }
+
+    .img7 {
+        width: 225px;
+        top: 60px;
+        left: -110px;
+    }
+
+    .materials-subtitle {   
+        font-size: 12px;
+    }
+
+    .materials-title {
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 28px;
+        max-width: 370px;
+    }
+
+    .materials-title-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .materials-text-3 h3 {
+        font-size: 28px;
+    }
+
+    .materials-text-3 p {
+        font-size: 12px;
+    }
+
+    .materials2{
+        background-image: url('Soyuz_TMA-16_approaching_ISS 3.png');
+    }
 }

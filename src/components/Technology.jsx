@@ -18,7 +18,9 @@ const Technology = () => {
         <div className='command-control-text' data-aos="fade-up" data-aos-duration="700">
           <h2>Command Control</h2>
           <p>Command Control is the operational heart of every SkyVoyager mission, ensuring real-time oversight of each spacecraft and ensuring the safety and success of every spaceflight. This elite team is comprised of aerospace engineers, navigation experts, and communications technicians, all working together to monitor and direct every aspect of the mission.</p>
+          <div className="button-container-more">
           <Link to="/materials" ><button className="button-more">More</button></Link>
+          </div>
         </div>
       </div>
       <div className='propulsion' >

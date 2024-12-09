@@ -80,12 +80,16 @@
   color: red;
   margin-top: 15px;
   font-weight: bold;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .success-message {
   color: green;
   margin-top: 15px;
   font-weight: bold;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .date-picker-container {
@@ -95,6 +99,7 @@
   align-items: center;
   gap: 20px;
   margin-bottom: 40px;
+  flex-wrap: wrap;
 }
 
 .date-picker {
@@ -110,14 +115,61 @@
   color: #969696;
 }
 
-.people-selector{
+.people-selector {
   margin-bottom: 30px;
 }
 
-.people-selector label{
+.people-selector label {
   margin-right: 8px;
 }
 
-.submit-button{
+.submit-button {
   margin-bottom: 80px;
+}
+
+
+@media (max-width: 768px) {
+  .reserve-container h1 {
+    font-size: 28px;
+  }
+
+  .mars {
+    width: 200px;
+    height: 200px;
+  }
+
+  .moon {
+    width: 150px;
+    height: 150px;
+  }
+
+  .iss {
+    width: 150px;
+    height: 87px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reserve-container h1 {
+    font-size: 22px;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .date-picker {
+    min-width: 250px;
+    justify-content: space-between;
+    padding: 12px 20px;
+  }
+
+  .date-picker label {
+    font-size: 14px;
+  }
+
+
+
+  .date-input {
+    max-width: 80px;
+  }
 }

@@ -15,13 +15,16 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0; /* Asegura que las imágenes estén detrás del texto */
+    z-index: 0;
+    /* Asegura que las imágenes estén detrás del texto */
 }
 
 .bg-image {
     position: absolute;
-    opacity: 0.8; /* Transparencia opcional */
-    pointer-events: none; /* Evita que las imágenes interfieran con el texto */
+    opacity: 0.8;
+    /* Transparencia opcional */
+    pointer-events: none;
+    /* Evita que las imágenes interfieran con el texto */
 }
 
 .img1 {
@@ -61,9 +64,11 @@
 }
 
 
-.launch-title, .launch-subtitle {
+.launch-title,
+.launch-subtitle {
     position: relative;
-    z-index: 1; /* Asegura que los textos estén encima */
+    z-index: 1;
+    /* Asegura que los textos estén encima */
 }
 
 .launch-title {
@@ -78,37 +83,38 @@
     margin-top: 300px;
 }
 
-.subtitle1{
+.subtitle1 {
     margin-top: 250px;
     max-width: 800px;
     text-align: start;
 }
 
-.subtitle2{
+.subtitle2 {
     align-items: end;
 }
 
-.subtitle2 p{
+.subtitle2 p {
     max-width: 800px;
     text-align: end;
 }
 
-.subtitle3{
+.subtitle3 {
     max-width: 800px;
     text-align: start;
 }
 
-.subtitle4{
+.subtitle4 {
     align-items: end;
 }
 
-.subtitle4 p{
+.subtitle4 p {
     max-width: 800px;
     text-align: end;
 }
 
 .button-launch {
-    position: relative; /* Necesario para el pseudo-elemento */
+    position: relative;
+    /* Necesario para el pseudo-elemento */
     padding: 18px 96px;
     background-color: transparent;
     color: white;
@@ -118,24 +124,201 @@
     cursor: pointer;
     margin-top: 470px;
     margin-bottom: 200px;
-    overflow: hidden; /* Oculta el desbordamiento del pseudo-elemento */
-    z-index: 1; /* Asegura que el texto del botón esté encima */
-    transition: color 0.3s ease; /* Transición para el color del texto */
+    overflow: hidden;
+    /* Oculta el desbordamiento del pseudo-elemento */
+    z-index: 1;
+    /* Asegura que el texto del botón esté encima */
+    transition: color 0.3s ease;
+    /* Transición para el color del texto */
 }
 
 .button-launch::before {
     content: "";
     position: absolute;
-    top: 100%; /* Inicia fuera del botón, desde abajo */
+    top: 100%;
+    /* Inicia fuera del botón, desde abajo */
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #2651BE; /* Color del hover */
-    z-index: -1; /* Detrás del contenido del botón */
-    transition: top 0.3s ease-in-out; /* Suaviza el movimiento */
+    background-color: #2651BE;
+    /* Color del hover */
+    z-index: -1;
+    /* Detrás del contenido del botón */
+    transition: top 0.3s ease-in-out;
+    /* Suaviza el movimiento */
 }
 
 .button-launch:hover::before {
-    top: 0; /* Llenado completo del fondo */
+    top: 0;
+    /* Llenado completo del fondo */
 }
 
+@media (max-width: 1050px) {
+
+    .subtitle2 p,
+    .subtitle1 p,
+    .subtitle3 p,
+    .subtitle4 p {
+        max-width: 550px;
+    }
+
+    .img2 {
+        left: 50px;
+    }
+
+    .img3 {
+        top: 12%;
+        left: 75%;
+    }
+
+    .img4 {
+        top: 28%;
+    }
+
+    .img5 {
+        top: 44%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .launch-section {
+
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 100px;
+
+    }
+
+    .img2 {
+        left: 20px;
+        top: 9%;
+    }
+
+    .img3 {
+        top: 20%;
+    }
+
+    .img4 {
+        top: 36%;
+        left: -150px;
+    }
+
+    .img5 {
+        top: 52%;
+        right: -70px;
+    }
+
+    .img6 {
+        top: 66%;
+        width: 570px;
+        left: -400px;
+    }
+
+}
+
+@media (max-width: 440px) {
+    .subtitle2 p, .subtitle1 p, .subtitle3 p, .subtitle4 p {
+        font-size: 14px;
+    }
+
+    .launch-title {
+        font-size: 28px;
+    }
+
+    .img1 {
+        top: 0%;
+        left: 80%;
+        width: 33px;
+    }
+
+    .img2 {
+        left: 20px;
+        top: 11%;
+        width: 100px;
+    }
+
+    .img3 {
+        top: 23%;
+        width: 300px;
+        left: 70%;
+    }
+
+    .img4 {
+        top: 39%;
+        left: -70px;
+        height: 300px;
+    }
+
+    .img5 {
+        top: 56%;
+        right: -30px;
+        width: 270px;
+    }
+
+    .img6 {
+        top: 73%;
+        width: 370px;
+        left: -250px;
+    }
+
+    .button-launch {
+        margin-top: 350px;
+        font-size: 16px;
+        padding: 18px 76px;
+
+    }
+
+}
+
+@media (max-width: 375px) {
+    .subtitle1 {
+        align-items: center;
+    }
+
+    .subtitle1 p {
+        text-align: center;
+    }
+
+    .subtitle2 {
+        align-items: center;
+    }
+
+    .subtitle2 p {
+        text-align: center;
+    }
+
+    .subtitle3 {
+        align-items: center;
+    }
+
+    .subtitle3 p {
+        text-align: center;
+    }
+
+    .subtitle4 {
+        align-items: center;
+    }
+
+    .subtitle4 p {
+        text-align: center;
+    }
+
+    .img4 {
+        top: 42%;
+        left: -70px;
+        height: 300px;
+    }
+
+    .img5 {
+        top: 59%;
+        right: -30px;
+        width: 270px;
+    }
+
+    .img6 {
+        top: 75%;
+        width: 370px;
+        left: -250px;
+    }
+}
