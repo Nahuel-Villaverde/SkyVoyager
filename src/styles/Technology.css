@@ -3,7 +3,7 @@
 }
 
 .advanced-materials {
-    background-image: url('/materials.png');
+    background-image: url('/materials.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
 
 
 .command-control {
-    background-image: url('/Group 7.png');
+    background-image: url('/Group 7.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@
 }
 
 .propulsion {
-    background-image: url('/propulsion.png');
+    background-image: url('/propulsion.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
