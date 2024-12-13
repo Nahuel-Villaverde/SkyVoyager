@@ -5,10 +5,10 @@ const Destinations = () => {
   return (
     <section className='destination-section'>
 
-        <img src="/Marte.png" alt="Background 3" className="bg-image-destination img1-destination" />
-        <img src="/moon.png" alt="Background 4" className="bg-image-destination img2-destination" />
-        <img src="/estacionespacial.png" alt="Background 4" className="bg-image-destination img3-destination" />
-        <img src="/tierra.png" alt="Background 4" className="bg-image-destination img4-destination" />
+        <img src="/Marte.png" alt="Imagen de Marte" className="bg-image-destination img1-destination" />
+        <img src="/moon.png" alt="Imagen de la luna" className="bg-image-destination img2-destination" />
+        <img src="/estacionespacial.png" alt="Imagen de estacion espacial" className="bg-image-destination img3-destination" />
+        <img src="/tierra.png" alt="Imagen de La Tierra" className="bg-image-destination img4-destination" />
      
       <div>
         <h2 className='destination-title' data-aos="fade-up" data-aos-duration="700">Destinations</h2>

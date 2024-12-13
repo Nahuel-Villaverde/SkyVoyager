@@ -6,7 +6,7 @@ const Materials = () => {
         <section className="materials-section">
             <div className='background-images'>
                 <img src="/capsula.png" alt="Capsula espacial" className="capsula" />
-                <img src="/paneta4.png" alt="Background 6" className="bg-image img7" />
+                <img src="/paneta4.png" alt="Imagen de planeta de fondo" className="bg-image img7" />
             </div>
             <div className='materials-home'>
                 <div className='materials-title-container'>
@@ -39,7 +39,7 @@ const Materials = () => {
                         </div>
                     </div>
                 </div>
-                <img src="/cnne-949243-cohete-de-propulsion-nuclear-podria-viajar-a-marte-Photoroom 1.png" alt="Background 1" className='aluminio' />
+                <img src="/cnne-949243-cohete-de-propulsion-nuclear-podria-viajar-a-marte-Photoroom 1.png" alt="Motor propulsor de nave espacial" className='aluminio' />
             </div>
             
 

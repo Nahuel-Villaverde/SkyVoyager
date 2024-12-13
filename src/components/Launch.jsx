@@ -6,12 +6,12 @@ const Launch = () => {
   return (
     <section className='launch-section'>
       <div className='background-images'>
-        <img src="/planeta1.png" alt="Background 1" className="bg-image img1" />
-        <img src="/planeta2.png" alt="Background 2" className="bg-image img2" />
-        <img src="/planeta3.png" alt="Background 3" className="bg-image img3" />
-        <img src="/cohete-launch.png" alt="Background 4" className="bg-image img4" />
-        <img src="/astronauta.png" alt="Background 5" className="bg-image img5" />
-        <img src="/paneta4.png" alt="Background 6" className="bg-image img6" />
+        <img src="/planeta1.png" alt="Imagen de planeta de fondo" className="bg-image img1" />
+        <img src="/planeta2.png" alt="Imagen de planeta de fondo 2" className="bg-image img2" />
+        <img src="/planeta3.png" alt="Imagen de planeta de fondo 3" className="bg-image img3" />
+        <img src="/cohete-launch.png" alt="Imagen de cohete de fondo" className="bg-image img4" />
+        <img src="/astronauta.png" alt="Imagen de astronauta de fondo" className="bg-image img5" />
+        <img src="/paneta4.png" alt="Imagen de planeta de fondo 4" className="bg-image img6" />
       </div>
       <div>
         <h1 className='launch-title' data-aos="fade-up" data-aos-duration="700">Your Journey Begins: <br></br>The Launch Process</h1>
